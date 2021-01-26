@@ -22,4 +22,8 @@ impl KvStore {
     pub fn remove(&mut self, key: String) -> Option<String> {
         self.map.remove(&key)
     }
+
+    // pub fn open(path: impl Intro<PathBuf>) -> Result<KvStore> {
+    //     unimplemented!()
+    // }
 }
